@@ -1,0 +1,60 @@
+body {
+    font-family: arial;
+background-image: url(../images/heroes/hero_iphone15pro__large_2x.jpg);
+background-position: center;
+background-size: cover;
+height: 500px;
+
+}
+header {
+    background-color: black;
+    text-align: center;
+    margin-top: 0px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 30px;
+    
+}
+
+
+header nav a {
+    color: whitesmoke;
+    size: 2px;
+    width: 100px;
+    margin:0 10px;
+}
+
+.one {
+    color: whitesmoke;
+    height: 20px;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+
+    display: inline-block;
+}
+main section h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+
+}
+main section h2{
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+}
+
+main section h3 {
+    color: yellow;
+}
+
+
+    
+    
+    
+
+    

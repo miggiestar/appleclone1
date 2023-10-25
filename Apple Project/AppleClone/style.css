@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: white;
+}
+
+
+/* GLOBAL SELECTOR */
+a {
+    text-decoration: none;
+    opacity: 0.8;
+    font-family: sans-serif;
+}
+.background {
+    background-color: grey;
+    height: 500px;
+    padding-top: 47px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: initial;
+    cursor: pointer;
+    
+}
+
+.background h2 {
+    font-size: 56px;
+}
+
+.background h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 6px;
+    
+}
+
+.background .cta-links {
+    margin-top: 0.65em;
+    
+}
+    
+.background .cta-links a{
+    color: #4848ff;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 0 15px;
+}
+
+.background .cta-links a:hover {
+    text-decoration: underline;
+    
+    
+}
+
+
+
+
+/* xxxxx GLOBAL SELECTOR xxxxx */
+
+/* HEADER */
+header{
+    background-color: rgba(22, 22, 23, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur (10px);
+    z-index: 2;
+}
+
+header nav {
+    /* background-color: red; */
+    max-width: 1024px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* MOBILE NAV */
+header .mobile-nav {
+    display: none;
+}
+
+header nav a{
+
+    font-size: 10px;
+    padding: 0 21px; 
+    /* padding is to give it space on the nav texts */
+    font-weight: 300;
+    transition: 0.2s 0.2s ease;
+    color: white;
+}
+
+header nav a:hover {
+    opacity: 1;
+}
+
+/* MAIN */
+
+/* Heroes */
+main {
+    padding-top: 50px;
+    background-color: white;
+    color: white;
+}
+
+main .heroes .background:nth-child(2) {
+    margin-top: 15px;
+}
+
+main .heroes .background:nth-child(3) {
+    margin-top: 15px;
+}
+
+/* iphone-15-pro */
+main .heroes .iphone-15-pro {
+    background-image: url(../images/heroes/hero_iphone15pro__large_2x.jpg);
+}
+
+main .heroes.iphone-15-pro h2 {
+    color: #f5f5f7;
+}
+
+main .heroes.iphone-15-pro h3 {
+    color: #f5f5f7;
+}
+
+/* iphone-15 */
+main .heroes .iphone-15 {
+    background-image:url(../images/heroes/hero_iphone15large_2x.jpg)
+}
+main .heroes .iphone-15 h2 {
+    color: black;
+}
+
+main .heroes .iphone-15 h3{
+    color: black;
+}
+
+/* MOVIE */
+main .heroes .MOVIE {
+    background-image: url(../images/heroes/hero_kfm___large_2x.jpg);
+    margin-bottom: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+main .heroes .MOVIE .star {
+    font-size: 20px;
+    padding-top: ;
+    padding-bottom: 25px;
+}
+
+
+
+
+/* WATCH */
+main .heroes .WATCH {
+    background-image: url(../images/heroes/hero_apple_watch_series_9_order___small_2x.jpg);
+}
+main .heroes .WATCH h2 {
+    font-size: 40px;
+}
+main .heroes .WATCH h3 {
+    color: #d54343;
+    font-size: 20px; 
+    margin-bottom: 15px; 
+    font-family: sans-serif;
+}
+
+main .heroes .WATCH h5 {
+font-size: 25px;
+font-family: sans-serif;
+
+}
+/*  promos*/
+main .promos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.promos .iPad{
+    background-image: url(../images/promos/promo_ipad___large_2x.jpg);
+    font-family: sans-serif;
+}
+
+.promos .iPad h2 {
+color: black;
+font-size: 36px;
+}
+
+.promos .iPad h3{
+    font-size: 20px;
+    color: black;
+}
+
+.promos .iPad .cta-links{
+    font-size: 10px;
+}
+
+.promos .Vision-Pro {
+    display: flex;
+    justify-content: end;
+    align-items:center;
+    background-image: url(../images/promos/promo_apple_vision_pro___large_2x.jpg);
+}
+
+.promos .Vision-Pro h2{
+    color: black;
+    font-size: 36px;
+    
+}
+
+.promos .Vision-Pro h3{
+    color: black;
+    font-size: 20px;
+    
+}
+
+.promos .Vision-Pro h5 {
+    color: gray;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.promos .Vision-Pro .cta-links {
+    margin-bottom: 56px;
+}
+
+.promos .MacBook-Air-15 {
+    background-image: url(../images/promos/promo_macbook_air_15_midnight___large_2x.jpg);
+}
+
+.promos .MacBook-Air-15 h2 {
+    color: black;
+    font-size: 36px;
+}
+
+.promos .MacBook-Air-15 h3{
+    color: black;
+    font-size: 20px;
+    
+}
+
+.promos .AirPods-Pro {
+    background-image: url(../images/promos/promo_airpods_pro_order__large_2x.jpg);
+}
+
+.promos .AirPods-Pro h2{
+    color: white;
+    font-size: 36px;
+}
+
+.promos .AirPods-Pro h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.promos .Trade-In {
+    background-image: url(../images/promos/promo_iphone_tradein___large_2x.jpg);
+}
+
+.promos .Trade-In h2{
+    color: black;
+    font-size: 36px;
+}
+
+.promos .Trade-In h3{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.promos .Card {
+    background-image: url(../images/promos/tile__applecard_large_2x.jpg);
+}
+
+.promos .Card h2 {
+    color: black;
+    font-size: 36px;
+}
+
+.promos .Card h3{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+/* FOOTER */
+footer{
+    background-color: whitesmoke;
+    height: 1000px;
+    color: gray;
+    font-size: 12px;
+    padding: 0 90px;
+    margin-top: 15px;
+    
+}
+
+footer .p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+footer section {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 15px;
+    
+}
+
+
+/* MOBILE Medium View */
+@media only screen and (max-width: 800px) {
+    
+    /* PC NAV */
+    header nav {
+        display: none;
+    }
+
+    /* MOBILE NAV */
+    header .mobile-nav {
+        display: flex;
+    }
+
+    /* iPhone-15-pro */
+    main .heroes .iphone-15-pro {
+        background-image: url(../images/heroes/hero_iphone15pro__medium_2x.jpg);
+    }
+
+    main .heroes .iphone-15-pro h2 {
+        font-size: 46px;
+    }
+
+    main .heroes .iphone-15-pro h3 {
+        font-size: 24px;
+    }
+
+    main .heroes .iphone-15-pro .cta-links a {
+        font-size: 19px;
+    }
+
+    main .promos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    
+}
+/* MOBILE Small View */
+@media only screen and(max-width: 600px) {
+    /* iPhone-15-pro */
+    main .heroes .iphone-15-pro {
+        background-image: url(../images/heroes/hero_iphone15pro___small_2x.jpg);
+    }
+
+    main .heroes .iphone-15-pro h2 {
+        font-size: 32px;
+    }
+
+    main .heroes .iphone-15-pro h3 {
+        font-size: 19px;
+    }
+    main .heroes .iphone-15-pro .cta-links a {
+        font-size: 17px;
+    }
+    
+}
+
+
+
+
+
+
+
